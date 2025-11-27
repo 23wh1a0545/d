@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION FILE</title>
+        <Style>
+            body{
+                background-color: beige;
+                background-position: center;
+                
+                background-position: center center;
+            }
+            .form-container{
+                background-color: white;
+                padding:20 px;
+                max-width: 600 px;
+                border-radius: 6px;
+            }
+            h2,h3{
+                background-color:red;
+            }
+        </Style>
+    </head>
+    <body>
+        <div class = "form-container" >
+            <h2>PERSONAL DETAILS</h2>
+            <label for = "name">NAME : *</label>
+            <input for id = "name" name = "name" type = "text" required>
+
+            <label for = "email">EMAIL : *</label>
+            <input for id = "email" name = "email" type = "email" required>
+
+            <label for = "age">AGE : *</label>
+            <input for id = "age" name = "age" type = "text" required>
+
+            <label for = "DOB">DOB : *</label>
+            <input for id = "DOB" name = "DOB" type = "date" required>
+
+            <label for = "address">ADDRESS : *</label>
+            <input for id = "address" name = "address" rows = "3" placeholder = "Specify here" required>
+
+            <h3>EDUCATION DETAILS</h3>
+
+            <label for = "college">COLLEGE : *</label>
+            <input for id = "college" name = "college" rows = "3" required>
+
+            <label for = "grad_year">GRADUATION YEAR : *</label>
+            <input for id = "grad_year" name = "grad_year" type = "text" required>
+
+            <label for = "branch">BRANCH : *</label>
+            <input for id = "branch" name = "branch" type = "text" required>
+
+            <label for = "section">SECTION : *</label>
+            <input for id = "section" name = "section" type = "text" required>
+            
+            <input for = "Submit" value = "register">
+        </form>
+        </div>
+    </body>
+</html>
